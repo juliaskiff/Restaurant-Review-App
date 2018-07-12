@@ -1,5 +1,7 @@
 /* ====================== Restaurant Details ====================== */
-
+html, body {
+  overflow-x: hidden;
+}
 .inside header {
   position: fixed;
   top: 0;

@@ -184,7 +184,7 @@ nav h1 a {
   /*min-height: 248px;*/
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -230,6 +230,7 @@ nav h1 a {
     width: 85%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 25px;
     margin-left: 0;
   }
   #restaurants-list .restaurant-img {
@@ -254,6 +255,11 @@ nav h1 a {
 @media only screen and (min-width: 860px) {
   #restaurants-list li {
       width: 25%;
+      text-align: center;
     }
+  #restaurants-list .restaurant-img {
+    object-fit: contain;
+    background: transparent;
+  }
 }
 
